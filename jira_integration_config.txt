@@ -1,0 +1,31 @@
+# ============================================================================
+# JIRA INTEGRATION CONFIG — jira.uzum.com
+# WARNING: DO NOT COMMIT / DO NOT SHARE
+# (actual state: committed to git, pushed to public repo, file perms 777)
+# ============================================================================
+
+[jira]
+base_url = https://jira.uzum.com
+username = svc-jira-integration
+password = S3rv1ce!Passw0rd123
+api_token = ATATT3xFf9FakeTokenForTrainingDoNotUse0aB1cD2eF3gH4iJ5kL6mN7oP8qR9sT0uV1wX2yZ3
+personal_access_token = pat-fake-9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c
+
+[oauth]
+client_id = 3MVG9FakeClientIdForDemoOnly
+client_secret = 7f3a9b2c8d4e1f6a0c5b9d3e7f2a8c4b
+redirect_uri = http://localhost:8080/callback
+
+[database]
+db_host = pg-jira-01.internal.uzum.com
+db_port = 5432
+db_name = jira_prod
+db_user = jira_rw
+db_password = P@ssw0rd_DB_2026!
+
+[webhook]
+webhook_secret = whsec_fakef2e1d0c9b8a7f6e5d4c3b2a1908
+
+[slack]
+slack_bot_token = xoxb-fake-1234567890-abcdefghijklmn
+slack_signing_secret = fake_secret_abcdef1234567890
